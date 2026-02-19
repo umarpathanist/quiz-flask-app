@@ -3,4 +3,3 @@ services:
     name: quiz-flask-app
     env: python
     startCommand: gunicorn main:app
-    buildCommand: pip install -r requirements.txt
